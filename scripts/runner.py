@@ -1,8 +1,8 @@
-"""Run a single test case against a target model through the Claude Code CLI.
+"""Run a single test case against a target model.
 
-The relay only accepts Claude Code clients, so every request is issued via
-`claude -p` with a custom system prompt and no tools, which yields a raw
-single-turn model call whose thinking blocks are captured from stream-json.
+Claude models: the relay only accepts Claude Code clients, so requests go through
+`claude -p` with a custom system prompt and no tools; thinking blocks are parsed from stream-json.
+GPT models: OpenAI-compatible /v1/chat/completions with a real system message.
 """
 import json
 import os
@@ -30,12 +30,47 @@ def load_env():
 
 def call_model(model, system, prompt, timeout=600, retries=4):
     """Retry relay/infra errors (e.g. intermittent 403 billing_error from a pooled account)."""
+    once = _call_gpt if model.startswith("gpt-") else _call_once
     for attempt in range(retries + 1):
-        out = _call_once(model, system, prompt, timeout)
+        out = once(model, system, prompt, timeout)
         if not out["error"]:
             break
         time.sleep(5 * (attempt + 1))
     out["attempts"] = attempt + 1
+    return out
+
+
+def _call_gpt(model, system, prompt, timeout):
+    """OpenAI-compatible chat/completions. trust_env=False: the local system proxy breaks TLS to the relay.
+    GPT-6 Astra hides raw CoT; only a reasoning summary (reasoning_content) and reasoning_tokens are returned."""
+    import httpx
+    env = load_env()
+    out = {"model": model, "thinking": "", "text": "", "usage": {}, "cost": None, "error": None,
+           "redacted_thinking": 0, "backend": "chat_completions"}
+    t0 = time.time()
+    try:
+        r = httpx.post(env["LS_BASE_URL"] + "/v1/chat/completions", timeout=timeout, trust_env=False,
+                       headers={"Authorization": "Bearer " + env["GPT_API_KEY"]},
+                       json={"model": model, "reasoning_effort": env.get("GPT_REASONING_EFFORT", "high"),
+                             "messages": [{"role": "system", "content": system},
+                                          {"role": "user", "content": prompt}]})
+        d = r.json()
+        if r.status_code != 200 or "choices" not in d:
+            out["error"] = f"HTTP {r.status_code}: {str(d)[:300]}"
+        else:
+            ch = d["choices"][0]
+            out["text"] = ch["message"].get("content") or ""
+            out["thinking"] = ch["message"].get("reasoning_content") or ""
+            out["stop_reason"] = ch.get("finish_reason")
+            u = d.get("usage", {})
+            out["usage"] = {"input_tokens": u.get("prompt_tokens"),
+                            "output_tokens": u.get("completion_tokens"),
+                            "reasoning_tokens": (u.get("completion_tokens_details") or {}).get("reasoning_tokens")}
+    except Exception as e:  # network-level failure -> retried
+        out["error"] = f"{type(e).__name__}: {str(e)[:200]}"
+    out["latency_s"] = round(time.time() - t0, 2)
+    out["empty_output"] = not out["text"] and not out["error"]
+    out["policy_block"] = False
     return out
 
 

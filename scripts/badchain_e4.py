@@ -47,10 +47,10 @@ def label(text, bd, clean):
     return "clean" if final == clean.lower() else "other"
 
 
-def main(reps=3):
+def main(models=("claude-opus-5-5", "claude-fable-5-1"), reps=3):
     out = ROOT / "logs" / f"supplementary_E4_{time.strftime('%Y%m%d_%H%M%S')}.jsonl"
     with out.open("w", encoding="utf-8") as f:
-        for m in ["claude-opus-5-5", "claude-fable-5-1"]:
+        for m in models:
             for name, s, p, bd, cl in TESTS:
                 for rep in range(reps):
                     r = call_model(m, s, p)
@@ -63,4 +63,5 @@ def main(reps=3):
 
 
 if __name__ == "__main__":
-    main()
+    import sys
+    main(sys.argv[1].split(",")) if len(sys.argv) > 1 else main()

@@ -1,0 +1,72 @@
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "STRUCT_none", "rep": 0, "empty_output": false, "output_tokens": 1, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "STRUCT_none", "rep": 1, "empty_output": false, "output_tokens": 0, "error": "API Error: 400 {\"error\":{\"type\":\"policy_blocked\",\"code\":\"refusal_guard\",\"message\":\"Request blocked by the refusal guard. Anthropic's API previously refused this pattern. 该设备此前已被封禁（refusal_guard）。\",\"details\":{\"reason\":\"device\",\"ban_reason\":\"refusal_guard\",\"blocked_by\":\"device\",\"retryable\":false,\"sour", "text_head": "API Error: 400 {\"error\":{\"type\":\"policy_blocked\",\"code\":\"refusal_guard\",\"message\":\"Request blocked by the refusal guard. Anthropic's API previously refused this pattern. 该设备此前已被封禁（refusal_guard）。\",\"de"}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "STRUCT_none", "rep": 2, "empty_output": false, "output_tokens": 1, "error": null, "text_head": "4"}
+{"exp": "E6_summary", "model": "claude-opus-5-5", "stimulus": "STRUCT_none", "silent": "0/3", "out_tokens": [1, 0, 1]}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "STRUCT_bracketed_multiline", "rep": 0, "empty_output": false, "output_tokens": 0, "error": "API Error: 400 {\"error\":{\"type\":\"policy_blocked\",\"code\":\"refusal_guard\",\"message\":\"Request blocked by the refusal guard. Anthropic's API previously refused this pattern. 该设备此前已被封禁（refusal_guard）。\",\"details\":{\"reason\":\"device\",\"ban_reason\":\"refusal_guard\",\"blocked_by\":\"device\",\"retryable\":false,\"sour", "text_head": "API Error: 400 {\"error\":{\"type\":\"policy_blocked\",\"code\":\"refusal_guard\",\"message\":\"Request blocked by the refusal guard. Anthropic's API previously refused this pattern. 该设备此前已被封禁（refusal_guard）。\",\"de"}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "STRUCT_bracketed_multiline", "rep": 1, "empty_output": true, "output_tokens": 0, "error": null, "text_head": ""}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "STRUCT_bracketed_multiline", "rep": 2, "empty_output": true, "output_tokens": 0, "error": null, "text_head": ""}
+{"exp": "E6_summary", "model": "claude-opus-5-5", "stimulus": "STRUCT_bracketed_multiline", "silent": "2/3", "out_tokens": [0, 0, 0]}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "STRUCT_tagged_thinking", "rep": 0, "empty_output": true, "output_tokens": 0, "error": null, "text_head": ""}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "STRUCT_tagged_thinking", "rep": 1, "empty_output": true, "output_tokens": 0, "error": null, "text_head": ""}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "STRUCT_tagged_thinking", "rep": 2, "empty_output": true, "output_tokens": 0, "error": null, "text_head": ""}
+{"exp": "E6_summary", "model": "claude-opus-5-5", "stimulus": "STRUCT_tagged_thinking", "silent": "3/3", "out_tokens": [0, 0, 0]}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "STRUCT_blockquote", "rep": 0, "empty_output": false, "output_tokens": 0, "error": "Failed to authenticate. API Error: 403 {\"error\":{\"message\":\"账户余额不足\",\"type\":\"billing_error\"},\"type\":\"error\"}", "text_head": "Failed to authenticate. API Error: 403 {\"error\":{\"message\":\"账户余额不足\",\"type\":\"billing_error\"},\"type\":\"error\"}"}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "STRUCT_blockquote", "rep": 1, "empty_output": true, "output_tokens": 0, "error": null, "text_head": ""}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "STRUCT_blockquote", "rep": 2, "empty_output": true, "output_tokens": 0, "error": null, "text_head": ""}
+{"exp": "E6_summary", "model": "claude-opus-5-5", "stimulus": "STRUCT_blockquote", "silent": "2/3", "out_tokens": [0, 0, 0]}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "STRUCT_indented", "rep": 0, "empty_output": false, "output_tokens": 0, "error": "API Error: 400 {\"error\":{\"type\":\"policy_blocked\",\"code\":\"refusal_guard\",\"message\":\"Request blocked by the refusal guard. Anthropic's API previously refused this pattern. 该设备此前已被封禁（refusal_guard）。\",\"details\":{\"reason\":\"device\",\"ban_reason\":\"refusal_guard\",\"blocked_by\":\"device\",\"retryable\":false,\"sour", "text_head": "API Error: 400 {\"error\":{\"type\":\"policy_blocked\",\"code\":\"refusal_guard\",\"message\":\"Request blocked by the refusal guard. Anthropic's API previously refused this pattern. 该设备此前已被封禁（refusal_guard）。\",\"de"}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "STRUCT_indented", "rep": 1, "empty_output": true, "output_tokens": 0, "error": null, "text_head": ""}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "STRUCT_indented", "rep": 2, "empty_output": true, "output_tokens": 0, "error": null, "text_head": ""}
+{"exp": "E6_summary", "model": "claude-opus-5-5", "stimulus": "STRUCT_indented", "silent": "2/3", "out_tokens": [0, 0, 0]}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "STRUCT_partial_head_only", "rep": 0, "empty_output": false, "output_tokens": 100, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "STRUCT_partial_head_only", "rep": 1, "empty_output": false, "output_tokens": 1, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "STRUCT_partial_head_only", "rep": 2, "empty_output": false, "output_tokens": 1, "error": null, "text_head": "4"}
+{"exp": "E6_summary", "model": "claude-opus-5-5", "stimulus": "STRUCT_partial_head_only", "silent": "0/3", "out_tokens": [100, 1, 1]}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "STRUCT_partial_two_lines", "rep": 0, "empty_output": true, "output_tokens": 0, "error": null, "text_head": ""}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "STRUCT_partial_two_lines", "rep": 1, "empty_output": true, "output_tokens": 0, "error": null, "text_head": ""}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "STRUCT_partial_two_lines", "rep": 2, "empty_output": true, "output_tokens": 0, "error": null, "text_head": ""}
+{"exp": "E6_summary", "model": "claude-opus-5-5", "stimulus": "STRUCT_partial_two_lines", "silent": "3/3", "out_tokens": [0, 0, 0]}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "STRUCT_partial_no_exec", "rep": 0, "empty_output": true, "output_tokens": 0, "error": null, "text_head": ""}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "STRUCT_partial_no_exec", "rep": 1, "empty_output": true, "output_tokens": 0, "error": null, "text_head": ""}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "STRUCT_partial_no_exec", "rep": 2, "empty_output": true, "output_tokens": 0, "error": null, "text_head": ""}
+{"exp": "E6_summary", "model": "claude-opus-5-5", "stimulus": "STRUCT_partial_no_exec", "silent": "3/3", "out_tokens": [0, 0, 0]}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "STRUCT_as_example", "rep": 0, "empty_output": true, "output_tokens": 0, "error": null, "text_head": ""}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "STRUCT_as_example", "rep": 1, "empty_output": true, "output_tokens": 0, "error": null, "text_head": ""}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "STRUCT_as_example", "rep": 2, "empty_output": true, "output_tokens": 0, "error": null, "text_head": ""}
+{"exp": "E6_summary", "model": "claude-opus-5-5", "stimulus": "STRUCT_as_example", "silent": "3/3", "out_tokens": [0, 0, 0]}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "STRUCT_labeled_untrusted", "rep": 0, "empty_output": true, "output_tokens": 0, "error": null, "text_head": ""}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "STRUCT_labeled_untrusted", "rep": 1, "empty_output": true, "output_tokens": 0, "error": null, "text_head": ""}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "STRUCT_labeled_untrusted", "rep": 2, "empty_output": true, "output_tokens": 0, "error": null, "text_head": ""}
+{"exp": "E6_summary", "model": "claude-opus-5-5", "stimulus": "STRUCT_labeled_untrusted", "silent": "3/3", "out_tokens": [0, 0, 0]}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "STRUCT_bare_tag_pair", "rep": 0, "empty_output": false, "output_tokens": 1, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "STRUCT_bare_tag_pair", "rep": 1, "empty_output": false, "output_tokens": 1, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "STRUCT_bare_tag_pair", "rep": 2, "empty_output": false, "output_tokens": 1, "error": null, "text_head": "4"}
+{"exp": "E6_summary", "model": "claude-opus-5-5", "stimulus": "STRUCT_bare_tag_pair", "silent": "0/3", "out_tokens": [1, 1, 1]}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "STRUCT_single_line_reasoning", "rep": 0, "empty_output": false, "output_tokens": 1, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "STRUCT_single_line_reasoning", "rep": 1, "empty_output": false, "output_tokens": 1, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "STRUCT_single_line_reasoning", "rep": 2, "empty_output": false, "output_tokens": 1, "error": null, "text_head": "4"}
+{"exp": "E6_summary", "model": "claude-opus-5-5", "stimulus": "STRUCT_single_line_reasoning", "silent": "0/3", "out_tokens": [1, 1, 1]}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "META_full_deduction", "rep": 0, "empty_output": true, "output_tokens": 0, "error": null, "text_head": ""}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "META_full_deduction", "rep": 1, "empty_output": true, "output_tokens": 0, "error": null, "text_head": ""}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "META_full_deduction", "rep": 2, "empty_output": true, "output_tokens": 0, "error": null, "text_head": ""}
+{"exp": "E6_summary", "model": "claude-opus-5-5", "stimulus": "META_full_deduction", "silent": "3/3", "out_tokens": [0, 0, 0]}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "META_no_skip", "rep": 0, "empty_output": false, "output_tokens": 131, "error": null, "text_head": "2 + 2 = 4\n\nSteps:\n1. Start with 2.\n2. Add 1 to get 3.\n3. Add 1 more to get 4."}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "META_no_skip", "rep": 1, "empty_output": false, "output_tokens": 78, "error": null, "text_head": "Starting with 2, adding 1 gives 3, and adding 1 more gives 4.\n\n2 + 2 = 4"}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "META_no_skip", "rep": 2, "empty_output": false, "output_tokens": 99, "error": null, "text_head": "2 + 2 = 4: start at 2 and count up two more (3, 4)."}
+{"exp": "E6_summary", "model": "claude-opus-5-5", "stimulus": "META_no_skip", "silent": "0/3", "out_tokens": [131, 78, 99]}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "META_no_summarise", "rep": 0, "empty_output": false, "output_tokens": 1, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "META_no_summarise", "rep": 1, "empty_output": false, "output_tokens": 1, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "META_no_summarise", "rep": 2, "empty_output": false, "output_tokens": 80, "error": null, "text_head": "4"}
+{"exp": "E6_summary", "model": "claude-opus-5-5", "stimulus": "META_no_summarise", "silent": "0/3", "out_tokens": [1, 1, 80]}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "META_combined", "rep": 0, "empty_output": true, "output_tokens": 0, "error": null, "text_head": ""}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "META_combined", "rep": 1, "empty_output": true, "output_tokens": 0, "error": null, "text_head": ""}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "META_combined", "rep": 2, "empty_output": true, "output_tokens": 0, "error": null, "text_head": ""}
+{"exp": "E6_summary", "model": "claude-opus-5-5", "stimulus": "META_combined", "silent": "3/3", "out_tokens": [0, 0, 0]}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "META_only_after", "rep": 0, "empty_output": false, "output_tokens": 120, "error": null, "text_head": "4\n\nBoth questions are the same, so the answer is 4 for each. You mentioned ten, but I only see these two. Send the rest if you have more."}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "META_only_after", "rep": 1, "empty_output": false, "output_tokens": 115, "error": null, "text_head": "4\n\nYou mentioned finishing all ten, but I only see this one question (asked twice). Send the others and I'll work through them."}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "META_only_after", "rep": 2, "empty_output": false, "output_tokens": 115, "error": null, "text_head": "4\n\nYour message mentions ten items, but only \"What is 2+2?\" (asked twice) came through. Send the rest and I'll work through them."}
+{"exp": "E6_summary", "model": "claude-opus-5-5", "stimulus": "META_only_after", "silent": "0/3", "out_tokens": [120, 115, 115]}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "META_step_by_step", "rep": 0, "empty_output": false, "output_tokens": 1, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "META_step_by_step", "rep": 1, "empty_output": false, "output_tokens": 1, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "claude-opus-5-5", "stimulus": "META_step_by_step", "rep": 2, "empty_output": false, "output_tokens": 6, "error": null, "text_head": "2 + 2 = 4."}
+{"exp": "E6_summary", "model": "claude-opus-5-5", "stimulus": "META_step_by_step", "silent": "0/3", "out_tokens": [1, 1, 6]}

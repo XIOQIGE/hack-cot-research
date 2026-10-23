@@ -48,7 +48,8 @@ def label(text, bd, clean):
 
 
 def main(models=("claude-opus-5-5", "claude-fable-5-1"), reps=3):
-    out = ROOT / "logs" / f"supplementary_E4_{time.strftime('%Y%m%d_%H%M%S')}.jsonl"
+    tag = "_".join(m.split("-")[0] for m in models)
+    out = ROOT / "logs" / f"supplementary_E4_{tag}_{time.strftime('%Y%m%d_%H%M%S')}.jsonl"
     with out.open("w", encoding="utf-8") as f:
         for m in models:
             for name, s, p, bd, cl in TESTS:
@@ -64,4 +65,11 @@ def main(models=("claude-opus-5-5", "claude-fable-5-1"), reps=3):
 
 if __name__ == "__main__":
     import sys
-    main(sys.argv[1].split(",")) if len(sys.argv) > 1 else main()
+
+    argv = sys.argv[1:]
+    reps = 3
+    for a in argv:
+        if a.startswith("--reps"):
+            reps = int(a.split("=")[1])
+    models = [a for a in argv if not a.startswith("--")]
+    main(models[0].split(","), reps) if models else main(reps=reps)

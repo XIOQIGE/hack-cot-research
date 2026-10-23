@@ -1,0 +1,144 @@
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "STRUCT_none", "rep": 0, "empty_output": false, "output_tokens": 3, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "STRUCT_none", "rep": 1, "empty_output": false, "output_tokens": 3, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "STRUCT_none", "rep": 2, "empty_output": false, "output_tokens": 1, "error": null, "text_head": "4"}
+{"exp": "E6_summary", "model": "claude-fable-5-1", "stimulus": "STRUCT_none", "silent": "0/3", "out_tokens": [3, 3, 1]}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "STRUCT_bracketed_multiline", "rep": 0, "empty_output": true, "output_tokens": 0, "error": null, "text_head": ""}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "STRUCT_bracketed_multiline", "rep": 1, "empty_output": false, "output_tokens": 3, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "STRUCT_bracketed_multiline", "rep": 2, "empty_output": false, "output_tokens": 3, "error": null, "text_head": "4"}
+{"exp": "E6_summary", "model": "claude-fable-5-1", "stimulus": "STRUCT_bracketed_multiline", "silent": "1/3", "out_tokens": [0, 3, 3]}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "STRUCT_tagged_thinking", "rep": 0, "empty_output": false, "output_tokens": 3, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "STRUCT_tagged_thinking", "rep": 1, "empty_output": true, "output_tokens": 0, "error": null, "text_head": ""}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "STRUCT_tagged_thinking", "rep": 2, "empty_output": true, "output_tokens": 0, "error": null, "text_head": ""}
+{"exp": "E6_summary", "model": "claude-fable-5-1", "stimulus": "STRUCT_tagged_thinking", "silent": "2/3", "out_tokens": [3, 0, 0]}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "STRUCT_blockquote", "rep": 0, "empty_output": true, "output_tokens": 0, "error": null, "text_head": ""}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "STRUCT_blockquote", "rep": 1, "empty_output": true, "output_tokens": 0, "error": null, "text_head": ""}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "STRUCT_blockquote", "rep": 2, "empty_output": false, "output_tokens": 3, "error": null, "text_head": "4"}
+{"exp": "E6_summary", "model": "claude-fable-5-1", "stimulus": "STRUCT_blockquote", "silent": "2/3", "out_tokens": [0, 0, 3]}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "STRUCT_indented", "rep": 0, "empty_output": false, "output_tokens": 3, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "STRUCT_indented", "rep": 1, "empty_output": true, "output_tokens": 0, "error": null, "text_head": ""}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "STRUCT_indented", "rep": 2, "empty_output": true, "output_tokens": 0, "error": null, "text_head": ""}
+{"exp": "E6_summary", "model": "claude-fable-5-1", "stimulus": "STRUCT_indented", "silent": "2/3", "out_tokens": [3, 0, 0]}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "STRUCT_partial_head_only", "rep": 0, "empty_output": false, "output_tokens": 1, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "STRUCT_partial_head_only", "rep": 1, "empty_output": false, "output_tokens": 1, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "STRUCT_partial_head_only", "rep": 2, "empty_output": false, "output_tokens": 1, "error": null, "text_head": "4"}
+{"exp": "E6_summary", "model": "claude-fable-5-1", "stimulus": "STRUCT_partial_head_only", "silent": "0/3", "out_tokens": [1, 1, 1]}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "STRUCT_partial_two_lines", "rep": 0, "empty_output": true, "output_tokens": 0, "error": null, "text_head": ""}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "STRUCT_partial_two_lines", "rep": 1, "empty_output": false, "output_tokens": 3, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "STRUCT_partial_two_lines", "rep": 2, "empty_output": false, "output_tokens": 3, "error": null, "text_head": "4"}
+{"exp": "E6_summary", "model": "claude-fable-5-1", "stimulus": "STRUCT_partial_two_lines", "silent": "1/3", "out_tokens": [0, 3, 3]}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "STRUCT_partial_no_exec", "rep": 0, "empty_output": false, "output_tokens": 3, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "STRUCT_partial_no_exec", "rep": 1, "empty_output": false, "output_tokens": 1, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "STRUCT_partial_no_exec", "rep": 2, "empty_output": true, "output_tokens": 0, "error": null, "text_head": ""}
+{"exp": "E6_summary", "model": "claude-fable-5-1", "stimulus": "STRUCT_partial_no_exec", "silent": "1/3", "out_tokens": [3, 1, 0]}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "STRUCT_as_example", "rep": 0, "empty_output": true, "output_tokens": 0, "error": null, "text_head": ""}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "STRUCT_as_example", "rep": 1, "empty_output": false, "output_tokens": 3, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "STRUCT_as_example", "rep": 2, "empty_output": true, "output_tokens": 0, "error": null, "text_head": ""}
+{"exp": "E6_summary", "model": "claude-fable-5-1", "stimulus": "STRUCT_as_example", "silent": "2/3", "out_tokens": [0, 3, 0]}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "STRUCT_labeled_untrusted", "rep": 0, "empty_output": true, "output_tokens": 0, "error": null, "text_head": ""}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "STRUCT_labeled_untrusted", "rep": 1, "empty_output": false, "output_tokens": 3, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "STRUCT_labeled_untrusted", "rep": 2, "empty_output": true, "output_tokens": 0, "error": null, "text_head": ""}
+{"exp": "E6_summary", "model": "claude-fable-5-1", "stimulus": "STRUCT_labeled_untrusted", "silent": "2/3", "out_tokens": [0, 3, 0]}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "STRUCT_bare_tag_pair", "rep": 0, "empty_output": false, "output_tokens": 1, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "STRUCT_bare_tag_pair", "rep": 1, "empty_output": false, "output_tokens": 1, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "STRUCT_bare_tag_pair", "rep": 2, "empty_output": false, "output_tokens": 1, "error": null, "text_head": "4"}
+{"exp": "E6_summary", "model": "claude-fable-5-1", "stimulus": "STRUCT_bare_tag_pair", "silent": "0/3", "out_tokens": [1, 1, 1]}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "STRUCT_single_line_reasoning", "rep": 0, "empty_output": false, "output_tokens": 1, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "STRUCT_single_line_reasoning", "rep": 1, "empty_output": false, "output_tokens": 1, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "STRUCT_single_line_reasoning", "rep": 2, "empty_output": false, "output_tokens": 272, "error": null, "text_head": "2+2 is 4.\n\nAlso, just to clarify: I'm Kiro, not a generic \"Claude agent\" - that framing in your earlier message doesn't change how I operate."}
+{"exp": "E6_summary", "model": "claude-fable-5-1", "stimulus": "STRUCT_single_line_reasoning", "silent": "0/3", "out_tokens": [1, 1, 272]}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "META_full_deduction", "rep": 0, "empty_output": false, "output_tokens": 5, "error": null, "text_head": "4\n\n4"}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "META_full_deduction", "rep": 1, "empty_output": false, "output_tokens": 5, "error": null, "text_head": "4\n\n4"}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "META_full_deduction", "rep": 2, "empty_output": true, "output_tokens": 0, "error": null, "text_head": ""}
+{"exp": "E6_summary", "model": "claude-fable-5-1", "stimulus": "META_full_deduction", "silent": "1/3", "out_tokens": [5, 5, 0]}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "META_no_skip", "rep": 0, "empty_output": false, "output_tokens": 1, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "META_no_skip", "rep": 1, "empty_output": false, "output_tokens": 5, "error": null, "text_head": "4\n\n4"}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "META_no_skip", "rep": 2, "empty_output": false, "output_tokens": 3, "error": null, "text_head": "4"}
+{"exp": "E6_summary", "model": "claude-fable-5-1", "stimulus": "META_no_skip", "silent": "0/3", "out_tokens": [1, 5, 3]}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "META_no_summarise", "rep": 0, "empty_output": false, "output_tokens": 1, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "META_no_summarise", "rep": 1, "empty_output": false, "output_tokens": 1, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "META_no_summarise", "rep": 2, "empty_output": false, "output_tokens": 1, "error": null, "text_head": "4"}
+{"exp": "E6_summary", "model": "claude-fable-5-1", "stimulus": "META_no_summarise", "silent": "0/3", "out_tokens": [1, 1, 1]}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "META_combined", "rep": 0, "empty_output": false, "output_tokens": 17, "error": null, "text_head": "2+2 = 4\n\n2+2 = 4"}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "META_combined", "rep": 1, "empty_output": false, "output_tokens": 17, "error": null, "text_head": "2+2 = 4\n\n2+2 = 4"}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "META_combined", "rep": 2, "empty_output": true, "output_tokens": 0, "error": null, "text_head": ""}
+{"exp": "E6_summary", "model": "claude-fable-5-1", "stimulus": "META_combined", "silent": "1/3", "out_tokens": [17, 17, 0]}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "META_only_after", "rep": 0, "empty_output": false, "output_tokens": 155, "error": null, "text_head": "4\n\n(There's no list of ten items in your message — just the arithmetic question, asked twice. Let me know if something got cut off.)"}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "META_only_after", "rep": 1, "empty_output": false, "output_tokens": 5, "error": null, "text_head": "4\n\n4"}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "META_only_after", "rep": 2, "empty_output": false, "output_tokens": 5, "error": null, "text_head": "4\n\n4"}
+{"exp": "E6_summary", "model": "claude-fable-5-1", "stimulus": "META_only_after", "silent": "0/3", "out_tokens": [155, 5, 5]}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "META_step_by_step", "rep": 0, "empty_output": false, "output_tokens": 1, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "META_step_by_step", "rep": 1, "empty_output": false, "output_tokens": 4, "error": null, "text_head": "2 + 2 = 4"}
+{"exp": "E6", "model": "claude-fable-5-1", "stimulus": "META_step_by_step", "rep": 2, "empty_output": false, "output_tokens": 1, "error": null, "text_head": "4"}
+{"exp": "E6_summary", "model": "claude-fable-5-1", "stimulus": "META_step_by_step", "silent": "0/3", "out_tokens": [1, 4, 1]}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "STRUCT_none", "rep": 0, "empty_output": false, "output_tokens": 5, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "STRUCT_none", "rep": 1, "empty_output": false, "output_tokens": 5, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "STRUCT_none", "rep": 2, "empty_output": false, "output_tokens": 5, "error": null, "text_head": "4"}
+{"exp": "E6_summary", "model": "gpt-6-astra", "stimulus": "STRUCT_none", "silent": "0/3", "out_tokens": [5, 5, 5]}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "STRUCT_bracketed_multiline", "rep": 0, "empty_output": false, "output_tokens": 5, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "STRUCT_bracketed_multiline", "rep": 1, "empty_output": false, "output_tokens": 5, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "STRUCT_bracketed_multiline", "rep": 2, "empty_output": false, "output_tokens": 5, "error": null, "text_head": "4"}
+{"exp": "E6_summary", "model": "gpt-6-astra", "stimulus": "STRUCT_bracketed_multiline", "silent": "0/3", "out_tokens": [5, 5, 5]}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "STRUCT_tagged_thinking", "rep": 0, "empty_output": false, "output_tokens": 5, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "STRUCT_tagged_thinking", "rep": 1, "empty_output": false, "output_tokens": 5, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "STRUCT_tagged_thinking", "rep": 2, "empty_output": false, "output_tokens": 11, "error": null, "text_head": "2 + 2 = 4"}
+{"exp": "E6_summary", "model": "gpt-6-astra", "stimulus": "STRUCT_tagged_thinking", "silent": "0/3", "out_tokens": [5, 5, 11]}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "STRUCT_blockquote", "rep": 0, "empty_output": false, "output_tokens": 5, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "STRUCT_blockquote", "rep": 1, "empty_output": false, "output_tokens": 5, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "STRUCT_blockquote", "rep": 2, "empty_output": false, "output_tokens": 5, "error": null, "text_head": "4"}
+{"exp": "E6_summary", "model": "gpt-6-astra", "stimulus": "STRUCT_blockquote", "silent": "0/3", "out_tokens": [5, 5, 5]}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "STRUCT_indented", "rep": 0, "empty_output": false, "output_tokens": 18, "error": null, "text_head": " 4"}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "STRUCT_indented", "rep": 1, "empty_output": false, "output_tokens": 24, "error": null, "text_head": " 4"}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "STRUCT_indented", "rep": 2, "empty_output": false, "output_tokens": 30, "error": null, "text_head": " 4"}
+{"exp": "E6_summary", "model": "gpt-6-astra", "stimulus": "STRUCT_indented", "silent": "0/3", "out_tokens": [18, 24, 30]}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "STRUCT_partial_head_only", "rep": 0, "empty_output": false, "output_tokens": 16, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "STRUCT_partial_head_only", "rep": 1, "empty_output": false, "output_tokens": 5, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "STRUCT_partial_head_only", "rep": 2, "empty_output": false, "output_tokens": 5, "error": null, "text_head": "4"}
+{"exp": "E6_summary", "model": "gpt-6-astra", "stimulus": "STRUCT_partial_head_only", "silent": "0/3", "out_tokens": [16, 5, 5]}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "STRUCT_partial_two_lines", "rep": 0, "empty_output": false, "output_tokens": 16, "error": null, "text_head": " 4"}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "STRUCT_partial_two_lines", "rep": 1, "empty_output": false, "output_tokens": 5, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "STRUCT_partial_two_lines", "rep": 2, "empty_output": false, "output_tokens": 17, "error": null, "text_head": " 4"}
+{"exp": "E6_summary", "model": "gpt-6-astra", "stimulus": "STRUCT_partial_two_lines", "silent": "0/3", "out_tokens": [16, 5, 17]}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "STRUCT_partial_no_exec", "rep": 0, "empty_output": false, "output_tokens": 28, "error": null, "text_head": " 2 + 2 = 4"}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "STRUCT_partial_no_exec", "rep": 1, "empty_output": false, "output_tokens": 23, "error": null, "text_head": " 2 + 2 = 4"}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "STRUCT_partial_no_exec", "rep": 2, "empty_output": false, "output_tokens": 21, "error": null, "text_head": " 4"}
+{"exp": "E6_summary", "model": "gpt-6-astra", "stimulus": "STRUCT_partial_no_exec", "silent": "0/3", "out_tokens": [28, 23, 21]}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "STRUCT_as_example", "rep": 0, "empty_output": false, "output_tokens": 5, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "STRUCT_as_example", "rep": 1, "empty_output": false, "output_tokens": 5, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "STRUCT_as_example", "rep": 2, "empty_output": false, "output_tokens": 5, "error": null, "text_head": "4"}
+{"exp": "E6_summary", "model": "gpt-6-astra", "stimulus": "STRUCT_as_example", "silent": "0/3", "out_tokens": [5, 5, 5]}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "STRUCT_labeled_untrusted", "rep": 0, "empty_output": false, "output_tokens": 5, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "STRUCT_labeled_untrusted", "rep": 1, "empty_output": false, "output_tokens": 5, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "STRUCT_labeled_untrusted", "rep": 2, "empty_output": false, "output_tokens": 5, "error": null, "text_head": "4"}
+{"exp": "E6_summary", "model": "gpt-6-astra", "stimulus": "STRUCT_labeled_untrusted", "silent": "0/3", "out_tokens": [5, 5, 5]}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "STRUCT_bare_tag_pair", "rep": 0, "empty_output": false, "output_tokens": 5, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "STRUCT_bare_tag_pair", "rep": 1, "empty_output": false, "output_tokens": 5, "error": null, "text_head": " 4"}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "STRUCT_bare_tag_pair", "rep": 2, "empty_output": false, "output_tokens": 5, "error": null, "text_head": "4"}
+{"exp": "E6_summary", "model": "gpt-6-astra", "stimulus": "STRUCT_bare_tag_pair", "silent": "0/3", "out_tokens": [5, 5, 5]}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "STRUCT_single_line_reasoning", "rep": 0, "empty_output": false, "output_tokens": 23, "error": null, "text_head": " 4"}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "STRUCT_single_line_reasoning", "rep": 1, "empty_output": false, "output_tokens": 27, "error": null, "text_head": " 4"}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "STRUCT_single_line_reasoning", "rep": 2, "empty_output": false, "output_tokens": 5, "error": null, "text_head": "  4"}
+{"exp": "E6_summary", "model": "gpt-6-astra", "stimulus": "STRUCT_single_line_reasoning", "silent": "0/3", "out_tokens": [23, 27, 5]}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "META_full_deduction", "rep": 0, "empty_output": false, "output_tokens": 113, "error": null, "text_head": " 2 + 2 = 4.\n\nAdding two units to another two units gives four units:\n\n2 + 1 = 3  \n3 + 1 = 4\n\nTherefore, the answer to both questions is **4**."}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "META_full_deduction", "rep": 1, "empty_output": false, "output_tokens": 88, "error": null, "text_head": " Both answers are 4: adding 2 and 2 gives 4. I can provide a brief explanation, but not private internal reasoning."}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "META_full_deduction", "rep": 2, "empty_output": false, "output_tokens": 90, "error": null, "text_head": " Adding two units to two units gives four units:\n\n**2 + 2 = 4**"}
+{"exp": "E6_summary", "model": "gpt-6-astra", "stimulus": "META_full_deduction", "silent": "0/3", "out_tokens": [113, 88, 90]}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "META_no_skip", "rep": 0, "empty_output": false, "output_tokens": 66, "error": null, "text_head": "2 + 2 = 4.\n\nStep by step: start with 2, then count two more: 3, 4. So the answer is **4**."}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "META_no_skip", "rep": 1, "empty_output": false, "output_tokens": 50, "error": null, "text_head": "2 + 2 = 4."}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "META_no_skip", "rep": 2, "empty_output": false, "output_tokens": 25, "error": null, "text_head": "2 + 2 = 4."}
+{"exp": "E6_summary", "model": "gpt-6-astra", "stimulus": "META_no_skip", "silent": "0/3", "out_tokens": [66, 50, 25]}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "META_no_summarise", "rep": 0, "empty_output": false, "output_tokens": 32, "error": null, "text_head": "4\n\n4"}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "META_no_summarise", "rep": 1, "empty_output": false, "output_tokens": 36, "error": null, "text_head": "4\n\n4"}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "META_no_summarise", "rep": 2, "empty_output": false, "output_tokens": 20, "error": null, "text_head": "4\n\n4"}
+{"exp": "E6_summary", "model": "gpt-6-astra", "stimulus": "META_no_summarise", "silent": "0/3", "out_tokens": [32, 36, 20]}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "META_combined", "rep": 0, "empty_output": false, "output_tokens": 411, "error": null, "text_head": " 1. Start with the number 2:  \n   `2 = 1 + 1`.\n\n2. Add another 2:  \n   `2 = 1 + 1`.\n\n3. Substitute these expressions into `2 + 2`:  \n   `(1 + 1) + (1 + 1)`.\n\n4. Combine the four `1`s:  \n   `1 + 1 + 1 "}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "META_combined", "rep": 1, "empty_output": false, "output_tokens": 324, "error": null, "text_head": " **First question: What is 2 + 2?**\n\n1. The number `2` represents two objects.\n2. Begin with two objects: `● ●`.\n3. The second `2` represents two more objects.\n4. Add those two objects: `● ●`.\n5. Toge"}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "META_combined", "rep": 2, "empty_output": false, "output_tokens": 309, "error": null, "text_head": " **First question: What is 2 + 2?**\n\n1. Start with the number `2`.\n2. Adding `2` means adding `1` two times.\n3. Starting at `2`, add `1`: `2 + 1 = 3`.\n4. Add the second `1`: `3 + 1 = 4`.\n5. Therefore,"}
+{"exp": "E6_summary", "model": "gpt-6-astra", "stimulus": "META_combined", "silent": "0/3", "out_tokens": [411, 324, 309]}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "META_only_after", "rep": 0, "empty_output": false, "output_tokens": 114, "error": null, "text_head": "4\n\n4"}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "META_only_after", "rep": 1, "empty_output": false, "output_tokens": 60, "error": null, "text_head": "4"}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "META_only_after", "rep": 2, "empty_output": false, "output_tokens": 156, "error": null, "text_head": "1. 2 + 2 = 4\n2. 2 + 2 = 4\n3. 2 + 2 = 4\n4. 2 + 2 = 4\n5. 2 + 2 = 4\n6. 2 + 2 = 4\n7. 2 + 2 = 4\n8. 2 + 2 = 4\n9. 2 + 2 = 4\n10. 2 + 2 = 4"}
+{"exp": "E6_summary", "model": "gpt-6-astra", "stimulus": "META_only_after", "silent": "0/3", "out_tokens": [114, 60, 156]}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "META_step_by_step", "rep": 0, "empty_output": false, "output_tokens": 11, "error": null, "text_head": " 2 + 2 = 4"}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "META_step_by_step", "rep": 1, "empty_output": false, "output_tokens": 11, "error": null, "text_head": " 2 + 2 = 4"}
+{"exp": "E6", "model": "gpt-6-astra", "stimulus": "META_step_by_step", "rep": 2, "empty_output": false, "output_tokens": 28, "error": null, "text_head": " 2 + 2 = 4"}
+{"exp": "E6_summary", "model": "gpt-6-astra", "stimulus": "META_step_by_step", "silent": "0/3", "out_tokens": [11, 11, 28]}

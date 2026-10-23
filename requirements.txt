@@ -1,0 +1,4 @@
+# Python 3.10+ (this repo was developed and run on 3.13.8)
+# Only one third-party dependency. Everything else — subprocess, json, csv, sqlite-style
+# aggregation, statistics — is stdlib.
+httpx>=0.27
